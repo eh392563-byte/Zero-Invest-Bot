@@ -27,8 +27,8 @@ def send_welcome(message):
     
     text = (
         f"স্বাগতম {message.from_user.first_name}!\n\n"
-        "এটি Zero Invest Bot। এখানে কাজ করে আপনি আনলিমিটেড ইনকাম করতে পারবেন।\n"
-        "ডাবল প্রফিট ট্রিক ব্যবহার করতে নিচের বাটনে ক্লিক করুন!"
+        "এটি Click 2 Cash বট। এখানে সহজ কিছু টাস্ক পূরণ করে আপনি প্রতিদিন টাকা আয় করতে পারবেন।\n"
+        "আপনার আজকের টাস্ক কমপ্লিট করতে নিচের 'কাজ শুরু করুন' বাটনে ক্লিক করুন!"
     )
     bot.send_message(message.chat.id, text, reply_markup=markup)
 
